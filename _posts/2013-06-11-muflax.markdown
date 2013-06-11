@@ -1,0 +1,11 @@
+---
+layout: post
+date:   2013-06-11 19:00:01
+person: Muflax
+tags: code quant
+---
+
+![mavothi](https://www.beeminder.com/muflax/goals/mavothi/graph)
+
+[mavothi](https://www.beeminder.com/muflax/goals/mavothi)
+

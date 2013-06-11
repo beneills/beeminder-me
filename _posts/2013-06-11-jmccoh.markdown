@@ -1,0 +1,9 @@
+---
+layout: post
+date:   2013-06-11 19:00:01
+person: Jim McClintock
+tags: mail
+---
+
+![Inbox Zero](https://www.beeminder.com/jmccoh/goals/gmailzero/graph)
+
