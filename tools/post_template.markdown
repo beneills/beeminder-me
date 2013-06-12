@@ -17,4 +17,4 @@ category: $PERSON_SHORT_NAME
         {% for tag in page.tags %}<span>{{ tag }}</span>{% endfor %}
 </span>
 
-o[![{{ page.goal }}]($GOAL_GRAPH)]($GOAL_URL)
+[![{{ page.goal }}]($GOAL_GRAPH)]($GOAL_URL)
