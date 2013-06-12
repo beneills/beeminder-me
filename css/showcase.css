@@ -39,3 +39,9 @@
 #footer > span {
     float: right;
 }
+
+#logo {
+    width: 30px;
+    margin-bottom: 35px;
+    margin-left: -15px;
+}
