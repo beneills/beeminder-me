@@ -1,0 +1,20 @@
+---
+layout: post
+date: 2013-06-12 15:37:11
+person: Beeminder
+goal: derev
+tags: business finance
+category: meta
+---
+
+<h3 id="goal-title" class="graph-align">
+    <a href="https://www.beeminder.com/meta/">{{ page.person }}</a>
+    ::
+    <a href="https://www.beeminder.com/meta/goals/derev">{{ page.goal }}</a>
+</h3>
+<br />
+<span id="goal-tags" class="muted graph-align">
+        {% for tag in page.tags %}<span>{{ tag }}</span>{% endfor %}
+</span>
+
+[![{{ page.goal }}](https://www.beeminder.com/meta/goals/derev/graph)](https://www.beeminder.com/meta/goals/derev)

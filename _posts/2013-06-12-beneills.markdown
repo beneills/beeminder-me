@@ -1,0 +1,20 @@
+---
+layout: post
+date: 2013-06-12 15:27:29
+person: Ben Eills
+goal: juggling
+tags: fitness skill
+category: beneills
+---
+
+<h3 id="goal-title" class="graph-align">
+    <a href="https://www.beeminder.com/beneills/">{{ page.person }}</a>
+    ::
+    <a href="https://www.beeminder.com/beneills/goals/juggling">{{ page.goal }}</a>
+</h3>
+<br />
+<span id="goal-tags" class="muted graph-align">
+        {% for tag in page.tags %}<span>{{ tag }}</span>{% endfor %}
+</span>
+
+[![{{ page.goal }}](https://www.beeminder.com/beneills/goals/juggling/graph)](https://www.beeminder.com/beneills/goals/juggling)
