@@ -1,0 +1,41 @@
+#goal {
+    float: left;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.graph-align {
+    margin-left: 30px;
+}
+
+#goal > h3 {
+    display: inline-block;
+    margin-bottom: -5px;
+}
+
+#goal-tags {
+    margin-left: 32px;
+}
+
+#goal-tags > span:after {
+    content: ", ";
+}
+
+#goal-tags > span:last-child:after {
+    content: ""
+}
+
+#title {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#goals {
+    margin-bottom: 50px;
+    margin-left: -29px;
+}
+
+#footer > span {
+    float: right;
+}

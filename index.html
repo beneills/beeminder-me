@@ -3,15 +3,11 @@ layout: default
 title: Beeminder Showcase
 ---
 
-<div id="home">
-  <h1>Beeminder Showcase</h1>
-  Curated list of interesting Beeminder profiles and goals.  <a href="mailto:ben@beneills.com?Subject=Suggestion%20for%20Beeminder%20Showcase">Suggest</a> yourself or someone else!
-    {% for post in site.posts %}
-        <hr />
-	<h2>{{ post.person }}</h2>
-	{% for tag in post.tags %}
-	    <h3>{{ tag }}</h3>
-	{% endfor %}
-	{{ post.content }}
-    {% endfor %}
+<div id="goals">
+{% for post in site.posts %}
+    <div id="goal">
+      {{ post.content }}
+    </div>
+{% endfor %}
+<div style="clear: both;"> </div>
 </div>

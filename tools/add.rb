@@ -4,7 +4,7 @@ require "highline/import"
 require "open-uri"
 
 profile_url = ARGV.first
-
+person_short_name = profile_url.split( "/" )[-1]
 
 body = open(profile_url).read
 
@@ -21,15 +21,8 @@ goals = body.scan(/\/goals\/([\w-]+)/).uniq.map { |g| g[0] }
 
 puts "Choose goal:"
 goal_name = choose( *goals )
-person_full_name = ask( "Person's full name? " ) { |q|
-  q.confirm = true
-}
-person_short_name = ask( "Person's short name (for filename)? " ) { |q|
-  q.confirm = true
-}
-tags = ask( "Tags (separate with comma/space)? " ).split(/[ ,]+/).join( " " ) { |q|
-  q.confirm = true
-}
+person_full_name = ask( "Person's full name? " )
+tags = ask( "Tags (separate with comma/space)? " ).split(/[ ,]+/).join( " " )
 
 goal_url = File.join( profile_url, "goals", goal_name)
 goal_graph = File.join( goal_url, "/graph")
@@ -37,7 +30,10 @@ goal_graph = File.join( goal_url, "/graph")
 text = ""
 File.open("post_template.markdown", "r") { |f|
   text = f.read
+  text.gsub!(/\$DATE/, DateTime.now.strftime("%F %T"))
+  text.gsub!(/\$PROFILE_URL/, profile_url)
   text.gsub!(/\$PERSON_FULL_NAME/, person_full_name)
+  text.gsub!(/\$PERSON_SHORT_NAME/, person_short_name)
   text.gsub!(/\$TAGS/, tags)
   text.gsub!(/\$GOAL_NAME/, goal_name)
   text.gsub!(/\$GOAL_GRAPH/, goal_graph)
@@ -64,3 +60,5 @@ filename = unique( File.expand_path( "../_posts/#{date}-#{person_short_name}.mar
 File.open(filename, "w") { |f|
   f.puts text
 }
+
+puts "Sucessfully added #{person_short_name}/#{goal_name}"

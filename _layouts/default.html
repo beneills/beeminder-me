@@ -6,35 +6,39 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="css/syntax.css">
+	
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="css/main.css">
-
+	<link href="css/showcase.css" rel="stylesheet" media="screen">
     </head>
     <body>
-
-        <div class="container">
+        <div class="container-fluid">
           <div class="site">
-     
+	    <h1 id="title">Beeminder Showcase</h1><a href="http://github.com/beneills/beeminder-showcase">[on Github]</a><br />
+
+	    <p>Curated list of interesting <a href="http://www.beeminder.com">Beeminder</a> goals.  <a href="mailto:ben@beneills.com?Subject=Suggestion%20for%20Beeminder%20Showcase">Suggest</a> yourself or a friend!</p>
+	    <hr />     
                 {{ content }}
 
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Ben Eills<br />
-                  ben@beneills.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/beneills/beeminder-showcase">github.com/beneills/beeminder-showcase</a><br />
-                </p>
+		<!-- Footer -->
+
+		<hr />
+		<div id="footer">
+                  <span>Ben Eills</span><br />
+                  <span><a href="mailto:ben@beneills.com?Subject=Beeminder%20Showcase">ben@beneills.com</a></span><br />
+                  <span><a href="http://github.com/beneills/beeminder-showcase">github/beeminder-showcase</a></span>
+		</div>
               </div>
             </div>
           </div>
         </div> <!-- /container -->
 
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     </body>
 </html>

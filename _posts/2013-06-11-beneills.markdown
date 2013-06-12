@@ -1,8 +1,0 @@
----
-layout: post
-date:   2013-06-11 18:51:01
-person: Ben Eills
-tags: coding fitness
----
-
-![Memrise Harvest](https://www.beeminder.com/beneills/goals/memrise-beginner-harvest-backlog/graph)
