@@ -67,7 +67,8 @@ goal_text = "#{person_short_name}/#{goal_name}"
 
 puts "Sucessfully added #{goal_text} to working directory"
 
+`git checkout master`
 `git add #{filename}`
-`git commit -am "add.rb: added new goal '#{goal_text}'"`
+`git commit -m "add.rb: added new goal '#{goal_text}'"`
 
 puts "Sucessfully committed.  Now push!"
