@@ -1,0 +1,20 @@
+---
+layout: post
+date: 2013-06-24 23:05:12
+person: Muflax
+goal: smoking
+tags: smoking health
+category: muflax
+---
+
+<h3 id="goal-title" class="graph-align">
+    <a href="https://www.beeminder.com/muflax">{{ page.person }}</a>
+    ::
+    <a href="https://www.beeminder.com/muflax/goals/smoking">{{ page.goal }}</a>
+</h3>
+<br />
+<span id="goal-tags" class="muted graph-align">
+        {% for tag in page.tags %}<span>{{ tag }}</span>{% endfor %}
+</span>
+
+[![{{ page.goal }}](https://www.beeminder.com/muflax/goals/smoking/graph)](https://www.beeminder.com/muflax/goals/smoking)
