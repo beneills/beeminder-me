@@ -1,0 +1,26 @@
+---
+layout: post
+date: 2013-06-26 22:56:50
+person: Muflax
+goal: anki
+tags: SRS anki learning
+category: muflax
+---
+
+<h3 class="graph-align goal-title">
+    <a href="https://www.beeminder.com/muflax">{{ page.person }}</a>
+    ::
+    <a href="https://www.beeminder.com/muflax/goals/anki">{{ page.goal }}</a>
+</h3>
+
+<br />
+<span class="muted graph-align goal-text goal-tags">
+        {% for tag in page.tags %}<span>{{ tag }}</span>{% endfor %}
+</span>
+
+<br />
+<div class="graph-align goal-text goal-description">
+      
+</div>
+
+[![{{ page.goal }}](https://www.beeminder.com/muflax/goals/anki/graph)](https://www.beeminder.com/muflax/goals/anki)
