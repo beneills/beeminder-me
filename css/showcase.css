@@ -2,7 +2,7 @@
     float: left;
     width: 400px;
     height: 300px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .graph-align {
@@ -11,6 +11,9 @@
 
 .goal > h3 {
     display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 90%;
     margin-bottom: -5px;
 }
 
