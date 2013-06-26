@@ -20,9 +20,7 @@ category: muflax
 
 <br />
 <div class="graph-align goal-text goal-description">
-
      Detailed in his <a href="http://daily.muflax.com/log/115/">blog</a> with <a href="https://github.com/muflax/cogatrice">code on Github</a>
-
 </div>
 
 [![{{ page.goal }}](https://www.beeminder.com/muflax/goals/cogtest/graph)](https://www.beeminder.com/muflax/goals/cogtest)

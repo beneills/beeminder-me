@@ -23,6 +23,7 @@ puts "Choose goal:"
 goal_name = choose( *goals )
 person_full_name = ask( "Person's full name? " )
 tags = ask( "Tags (separate with comma/space)? " ).split(/[ ,]+/).join( " " )
+description = ask( "Description of goal? " )
 
 description = ask( "Description of goal? " )
 description = "&nbsp;" if description.nil?
