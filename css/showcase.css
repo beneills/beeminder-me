@@ -1,4 +1,4 @@
-#goal {
+.goal {
     float: left;
     width: 400px;
     height: 300px;
@@ -9,20 +9,25 @@
     margin-left: 30px;
 }
 
-#goal > h3 {
+.goal > h3 {
     display: inline-block;
     margin-bottom: -5px;
 }
 
-#goal-tags {
+.goal-text {
     margin-left: 32px;
 }
 
-#goal-tags > span:after {
+.goal-description {
+
+}
+
+
+.goal-tags > span:after {
     content: ", ";
 }
 
-#goal-tags > span:last-child:after {
+.goal-tags > span:last-child:after {
     content: ""
 }
 

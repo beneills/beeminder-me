@@ -24,6 +24,9 @@ goal_name = choose( *goals )
 person_full_name = ask( "Person's full name? " )
 tags = ask( "Tags (separate with comma/space)? " ).split(/[ ,]+/).join( " " )
 
+description = ask( "Description of goal? " )
+description = "&nbsp;" if description.nil?
+
 goal_url = File.join( profile_url, "goals", goal_name)
 goal_graph = File.join( goal_url, "/graph")
 
@@ -35,6 +38,7 @@ File.open("post_template.markdown", "r") { |f|
   text.gsub!(/\$PERSON_FULL_NAME/, person_full_name)
   text.gsub!(/\$PERSON_SHORT_NAME/, person_short_name)
   text.gsub!(/\$TAGS/, tags)
+  text.gsub!(/\$DESCRIPTION/, description)
   text.gsub!(/\$GOAL_NAME/, goal_name)
   text.gsub!(/\$GOAL_GRAPH/, goal_graph)
   text.gsub!(/\$GOAL_URL/, goal_url)

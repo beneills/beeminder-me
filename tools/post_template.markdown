@@ -7,14 +7,20 @@ tags: $TAGS
 category: $PERSON_SHORT_NAME
 ---
 
-<h3 id="goal-title" class="graph-align">
+<h3 class="graph-align goal-title">
     <a href="$PROFILE_URL">{{ page.person }}</a>
     ::
     <a href="$GOAL_URL">{{ page.goal }}</a>
 </h3>
+
 <br />
-<span id="goal-tags" class="muted graph-align">
+<span class="muted graph-align goal-text goal-tags">
         {% for tag in page.tags %}<span>{{ tag }}</span>{% endfor %}
 </span>
+
+<br />
+<div class="graph-align goal-text goal-description">
+      $DESCRIPTION
+</div>
 
 [![{{ page.goal }}]($GOAL_GRAPH)]($GOAL_URL)
