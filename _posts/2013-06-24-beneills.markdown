@@ -11,8 +11,8 @@ category: beneills
     <a href="https://www.beeminder.com/beneills">{{ page.person }}</a>
     ::
     <a href="https://www.beeminder.com/beneills/goals/config-git-commits">{{ page.goal }}</a>
-
 </h3>
+
 <br />
 <span class="muted graph-align goal-text goal-tags">
         {% for tag in page.tags %}<span>{{ tag }}</span>{% endfor %}
