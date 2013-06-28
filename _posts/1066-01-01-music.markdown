@@ -1,0 +1,16 @@
+---
+layout: post
+date: 2013-06-28 11:55:00
+goal: music
+---
+
+<h3 class="graph-align goal-title">
+    <a href="https://www.beeminder.com/beneills/goals/music">{{ page.goal }}</a>
+</h3>
+
+<br />
+<div class="graph-align goal-text goal-description">
+      &nbsp;
+</div>
+
+[![{{ page.goal }}](https://www.beeminder.com/beneills/goals/music/graph)](https://www.beeminder.com/beneills/goals/music)
