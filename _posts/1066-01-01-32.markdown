@@ -1,0 +1,16 @@
+---
+layout: post
+date: 2013-06-28 11:55:00
+goal: 32
+---
+
+<h3 class="graph-align goal-title">
+    <a href="https://www.beeminder.com/beneills/goals/32">{{ page.goal }}</a>
+</h3>
+
+<br />
+<div class="graph-align goal-text goal-description">
+      &nbsp;
+</div>
+
+[![{{ page.goal }}](https://www.beeminder.com/beneills/goals/32/graph)](https://www.beeminder.com/beneills/goals/32)
