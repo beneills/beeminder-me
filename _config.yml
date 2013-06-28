@@ -1,3 +1,3 @@
-name: Your New Jekyll Site
+name: beeminder-me
 pygments: true
 exclude: ["tools/post_template.markdown", "README.md", "tools"]
