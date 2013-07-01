@@ -6,6 +6,9 @@ require "open-uri"
 
 profile_url = "https://www.beeminder.com/beneills"
 
+if not `git status`.include? 'clean'
+  puts "Git repo has uncommitted changes.  Doing nothing."
+end
 
 person_short_name = profile_url.split( "/" )[-1]
 body = open(profile_url).read
