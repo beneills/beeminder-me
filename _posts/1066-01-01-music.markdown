@@ -10,7 +10,7 @@ goal: music
 
 <br />
 <div class="graph-align goal-text goal-description">
-      &nbsp;
+     pieces in goal data
 </div>
 
 [![{{ page.goal }}](https://www.beeminder.com/beneills/goals/music/graph)](https://www.beeminder.com/beneills/goals/music)
