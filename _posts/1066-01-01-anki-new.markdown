@@ -1,0 +1,16 @@
+---
+layout: post
+date: 2013-07-01 16:24:58
+goal: anki-new
+---
+
+<h3 class="graph-align goal-title">
+    <a href="https://www.beeminder.com/beneills/goals/anki-new">{{ page.goal }}</a>
+</h3>
+
+<br />
+<div class="graph-align goal-text goal-description">
+      &nbsp;
+</div>
+
+[![{{ page.goal }}](https://www.beeminder.com/beneills/goals/anki-new/graph)](https://www.beeminder.com/beneills/goals/anki-new)
