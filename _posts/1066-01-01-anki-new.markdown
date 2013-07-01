@@ -10,7 +10,7 @@ goal: anki-new
 
 <br />
 <div class="graph-align goal-text goal-description">
-      &nbsp;
+     via <a href="https://ankiweb.net/shared/info/3491889895">plugin</a>
 </div>
 
 [![{{ page.goal }}](https://www.beeminder.com/beneills/goals/anki-new/graph)](https://www.beeminder.com/beneills/goals/anki-new)
