@@ -5,7 +5,7 @@ goal: memrise-beginner-harvest-backlog
 ---
 
 <h3 class="graph-align goal-title">
-    <a href="https://www.beeminder.com/beneills/goals/memrise-beginner-harvest-backlog">{{ page.goal }}</a>
+    <a target="_blank" href="https://www.beeminder.com/beneills/goals/memrise-beginner-harvest-backlog">{{ page.goal }}</a>
 </h3>
 
 <br />

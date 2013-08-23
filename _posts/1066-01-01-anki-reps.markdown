@@ -5,12 +5,12 @@ goal: anki-reps
 ---
 
 <h3 class="graph-align goal-title">
-    <a href="https://www.beeminder.com/beneills/goals/anki-reps">{{ page.goal }}</a>
+    <a target="_blank" href="https://www.beeminder.com/beneills/goals/anki-reps">{{ page.goal }}</a>
 </h3>
 
 <br />
 <div class="graph-align goal-text goal-description">
-     via <a href="https://ankiweb.net/shared/info/3491889895">plugin</a>
+     via <a target="_blank" href="https://ankiweb.net/shared/info/3491889895">plugin</a>
 </div>
 
 [![{{ page.goal }}](https://www.beeminder.com/beneills/goals/anki-reps/graph)](https://www.beeminder.com/beneills/goals/anki-reps)

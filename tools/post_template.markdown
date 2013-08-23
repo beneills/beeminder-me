@@ -5,7 +5,7 @@ goal: $GOAL_NAME
 ---
 
 <h3 class="graph-align goal-title">
-    <a href="$GOAL_URL">{{ page.goal }}</a>
+    <a href="$GOAL_URL" target="_blank">{{ page.goal }}</a>
 </h3>
 
 <br />

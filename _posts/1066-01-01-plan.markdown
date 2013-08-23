@@ -5,12 +5,12 @@ goal: plan
 ---
 
 <h3 class="graph-align goal-title">
-    <a href="https://www.beeminder.com/beneills/goals/plan">{{ page.goal }}</a>
+    <a target="_blank" href="https://www.beeminder.com/beneills/goals/plan">{{ page.goal }}</a>
 </h3>
 
 <br />
 <div class="graph-align goal-text goal-description">
-     Make a daily plan in the morning, using: <a href="https://github.com/beneills/bin">beeplan.rb</a>/emacs
+     Make a daily plan in the morning, using: <a target="_blank" href="https://github.com/beneills/bin">beeplan.rb</a>/emacs
 </div>
 
 [![{{ page.goal }}](https://www.beeminder.com/beneills/goals/plan/graph)](https://www.beeminder.com/beneills/goals/plan)

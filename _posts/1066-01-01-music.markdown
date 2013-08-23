@@ -5,7 +5,7 @@ goal: music
 ---
 
 <h3 class="graph-align goal-title">
-    <a href="https://www.beeminder.com/beneills/goals/music">{{ page.goal }}</a>
+    <a target="_blank" href="https://www.beeminder.com/beneills/goals/music">{{ page.goal }}</a>
 </h3>
 
 <br />

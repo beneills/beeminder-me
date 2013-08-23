@@ -5,12 +5,12 @@ goal: lingua
 ---
 
 <h3 class="graph-align goal-title">
-    <a href="https://www.beeminder.com/beneills/goals/lingua">{{ page.goal }}</a>
+    <a target="_blank" href="https://www.beeminder.com/beneills/goals/lingua">{{ page.goal }}</a>
 </h3>
 
 <br />
 <div class="graph-align goal-text goal-description">
-     Lingua Latina Capitulum (also using <a href="http://www.rci.rutgers.edu/~wcd/Latin.htm">Dowling's Method</a>)
+     Lingua Latina Capitulum (also using <a target="_blank" href="http://www.rci.rutgers.edu/~wcd/Latin.htm">Dowling's Method</a>)
 </div>
 
 [![{{ page.goal }}](https://www.beeminder.com/beneills/goals/lingua/graph)](https://www.beeminder.com/beneills/goals/lingua)
