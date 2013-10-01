@@ -10,7 +10,7 @@ goal: 32
 
 <br />
 <div class="graph-align goal-text goal-description">
-     <a target="_blank" href="http://www.amazon.co.uk/French-Lessons-Gimmick-W-W-Norton/dp/0393316475/ref=sr_1_1/277-1818390-4288527?ie=UTF8&amp;qid=1372691440&amp;sr=8-1&amp;keywords=32+french+lessons">French in 32 Lessons</a>
+     <a target="_blank" href="http://www.amazon.co.uk/French-Lessons-Gimmick-W-W-Norton/dp/0393316475/ref=sr_1_1/277-1818390-4288527?ie=UTF8&amp;qid=1372691440&amp;sr=8-1&amp;keywords=32+french+lessons">French in 32 Lessons</a> (on 9 week hiatus)
 </div>
 
 [![{{ page.goal }}](https://www.beeminder.com/beneills/goals/32/graph)](https://www.beeminder.com/beneills/goals/32)

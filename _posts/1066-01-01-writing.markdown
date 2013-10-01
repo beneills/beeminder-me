@@ -10,7 +10,7 @@ goal: writing
 
 <br />
 <div class="graph-align goal-text goal-description">
-      &nbsp;
+      <a href="http://beneills.com/">http://beneills.com/</a>
 </div>
 
 [![{{ page.goal }}](https://www.beeminder.com/beneills/goals/writing/graph)](https://www.beeminder.com/beneills/goals/writing)

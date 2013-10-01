@@ -10,7 +10,7 @@ goal: lingua
 
 <br />
 <div class="graph-align goal-text goal-description">
-     Lingua Latina Capitulum (also using <a target="_blank" href="http://www.rci.rutgers.edu/~wcd/Latin.htm">Dowling's Method</a>)
+     Lingua Latina Capitulum (also using <a target="_blank" href="http://www.rci.rutgers.edu/~wcd/Latin.htm">Dowling's Method</a>) (on 9 week hiatus)
 </div>
 
 [![{{ page.goal }}](https://www.beeminder.com/beneills/goals/lingua/graph)](https://www.beeminder.com/beneills/goals/lingua)
